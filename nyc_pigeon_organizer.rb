@@ -19,3 +19,18 @@ def nyc_pigeon_organizer(data)
   end
   result
 end
+
+# One of Learn.co solutions. I really like it! 
+# def nyc_pigeon_organizer(data)
+#   result = {}
+#   data.each do |category, data_items|
+#     data_items.each do |attributes, names|
+#       names.each do |name|
+#         result[name] ||= {}
+#         result[name][category] ||= []
+#         result[name][category] << attributes.to_s
+#       end
+#     end
+#   end
+#   result
+# end
